@@ -17,4 +17,5 @@ public static String isNumberWeird(int number){ if(isNumberOdd(number)||(number 
 public static void main(String[] args) { Scanner scan = new Scanner(System.in); int number = scan.nextInt(); scan.close();
 
   System.out.println(isNumberWeird(number));
-} }
+} 
+}
