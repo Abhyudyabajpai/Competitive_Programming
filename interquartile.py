@@ -1,4 +1,4 @@
-#finding interquartile range without using numpy
+#finding interquartile range
 n=int(input())
 x=list(map(int, input().split(" ")))
 f=list(map(int, input().split(" ")))
