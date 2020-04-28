@@ -22,7 +22,7 @@ class Student {
     }
 };
 int main() {
-    int n; // number of students
+    int n; 
     cin >> n;
     Student *s = new Student[n]; // an array of n students
     
