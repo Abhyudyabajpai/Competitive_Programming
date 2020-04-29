@@ -38,7 +38,6 @@ def count_inversions(a):
     # print(final_array)
     return inversions
       
-
 t = int(input().strip())
 for a0 in range(t):
     n = int(input().strip())
