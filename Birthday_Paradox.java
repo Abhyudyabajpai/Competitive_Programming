@@ -1,7 +1,6 @@
 class GFG { 
       
     // Returns approximate number of people  
-    // for a given probability 
     static double find(double p) { 
           
         return Math.ceil(Math.sqrt(2 *  
