@@ -53,6 +53,4 @@ class Student :  public Person
                   g= 'T';
             return g;
         }
-
 };
-int main() {
