@@ -22,6 +22,8 @@ def merge(arr0, arr1):
         
     return result, inversions
 
+
+
 def sort(arr):
     length = len(arr)
     mid = length//2
@@ -35,10 +37,12 @@ def sort(arr):
 
 def count_inversions(a):
     final_array, inversions = sort(a)
+
     # print(final_array)
+
     return inversions
       
-t = int(input().strip())
+m = int(input().strip())
 for a0 in range(t):
     n = int(input().strip())
     arr = list(map(int, input().strip().split(' ')))
