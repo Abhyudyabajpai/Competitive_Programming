@@ -35,7 +35,7 @@ def sort(arr):
     else:
         return arr, 0
 
-def count_inversions(a):
+def count_inversion(a):
     final_array, inversions = sort(a)
 
     # print(final_array)
@@ -46,4 +46,4 @@ m = int(input().strip())
 for a0 in range(t):
     n = int(input().strip())
     arr = list(map(int, input().strip().split(' ')))
-    print(count_inversions(arr))
+    print(count_inversion(arr))
