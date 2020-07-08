@@ -11,6 +11,7 @@ int main() {
    dijkstra(G,n,u);
    return 0;
 }
+
 void dijkstra(int G[max][max],int n,int startnode) {
    int cost[max][max],distance[max],pred[max];
    int visited[max],count,mindistance,nextnode,i,j;
