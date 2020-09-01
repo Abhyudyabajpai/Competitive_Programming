@@ -38,9 +38,7 @@ for(int i=0;i<n;i++)
 {
 cin>>a[i];
 }
-// int min = INT_MAX;
-// getMin(a,v,n,0,min,0);
-// cout<<min<<endl;
+
 int dp[n+1][v+1] = {0};
 for(int i=0;i<=n;i++)
 dp[i][0] = 0;
