@@ -111,7 +111,7 @@ void traverse(struct Node *last)
 
 } 
 
-// Driven Program 
+
 int main() 
 { 
 	struct Node *last = NULL; 
